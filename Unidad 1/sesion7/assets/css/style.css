@@ -1,0 +1,33 @@
+.caja-canciones {
+    background-color: grey;
+    width: 500px;
+    height: 200px;
+    border-top: 2px solid red;
+    border-bottom: 6px dashed green;
+    border-left: 5px dotted blue;
+    border-right: 10px double orange;
+}
+
+.caja-canciones p {
+    color: red;
+}
+
+.caja {
+    background-color: lightblue;
+    border: 2px solid black;
+    width: 500px;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    /*margin: [top] [right] [bottom] [left]; 
+    margin: [all] 
+    margin: [x] [y] */
+}
+
+.caja-padding {
+    background-color: lightblue;
+    border: 2px solid black;
+    width: 500px;
+    padding: 50px 30px 50px 80px;
+}

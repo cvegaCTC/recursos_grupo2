@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión 5</title>
+</head>
+<body>
+    <!--begin::Formulario-->
+    <div>
+        <h3>Formulario</h3>
+        <!--Etiqueta form le indica al navegador que todo lo que se encuentra entre su inicio y cierre debe ser interpretado como un formulario-->
+        <form action="#" method="post">
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Soto Martinez" required>
+            <br>
+            <label for="nombres">Nombres: </label>
+            <input type="text" id="nombres" name="nombres" placeholder="María Antonia" required>
+            <br>
+           <label for="email">Correo electrónico: </label> 
+           <input type="email" id="email" name="email" placeholder="mantonia@mail.com" required>
+           <br>
+           <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+           <input type="date" id="fecha_nacimiento" name="fechaNacimiento" required>
+           <br>
+            <label for="hora_nacimiento">Hora de nacimiento: </label>
+            <input type="time" id="hora_nacimiento" name="horaNacimiento" step="1">
+            <br>
+           <label for="edad">Edad: </label>
+           <input type="number" id="edad" name="edad" placeholder="99" min="0">
+            <br>
+            <p>Género: </p>
+            <input type="radio" id="f" name="genero" value="f">
+            <label for="f">Femenino</label>
+            <input type="radio" id="m" name="genero" value="m">
+            <label for="m">Masculino</label>
+            <input type="radio" id="n-b" name="genero" value="n_b">
+            <label for="n-b">No binario</label>
+            <br>
+            <p>Intereses: </p>
+            <input type="checkbox" name="intereses" value="musica" id="musica">
+            <label for="musica">Música</label>
+            <input type="checkbox" name="intereses" value="danza" id="danza">
+            <label for="danza">Danza</label>
+            <input type="checkbox" name="intereses" value="videojuegos" id="videojuegos">
+            <label for="videojuegos">Videojuegos</label>
+            <input type="checkbox" name="intereses" value="aire_libre" id="aire_libre">
+            <label for="aire_libre">Aire libre</label>
+            <br>
+            <p>País</p>
+            <select name="pais" id="pais">
+                <option>---Seleccione un país----</option>
+                <option value="chile">Chile</option>
+                <option value="peru">Perú</option>
+                <option value="colombia">Colombia</option>
+                <option value="venezuela">Venezuela</option>
+            </select>
+            <br>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <p>Comentarios: </p>
+            <textarea name="comentarios" autocapitalize="sentences" placeholder="Utiliza este cuadro si tienes comentarios adicionales"></textarea>
+            <br>
+            <input type="submit" value="Registrarse">
+            <button type="reset">Limpiar</button>
+        </form>
+    </div>
+    <!--end::Formulario-->
+</body>
+</html>

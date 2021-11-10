@@ -1,0 +1,22 @@
+.caja_verde {
+    background-color: green;
+    border-color: yellow;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20%;
+
+    /* border: 3px solid yellow; */
+}
+
+/* Utilizar una de las siguientes opciones */
+.texto_rojo {
+    color: red;
+}
+
+.caja_verde p {
+    color: red;
+}
+
+#parrafo_rosado {
+    background-color: pink;
+}

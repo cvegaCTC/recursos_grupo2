@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    font-size: 0.7rem;
+}
+
+#title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.item {
+    border: 1px dotted rgb(100, 91, 91);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+}
+
+#navbar {
+    width: 150px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:first-child a {
+    color: white;
+}
+
+li:first-child {
+    background-color: rgb(255, 157, 0);
+}
+
+li:hover {
+    background-color: rgb(228, 224, 220);
+}
+
+li:active {
+    background-color: rgb(51, 50, 50);
+}

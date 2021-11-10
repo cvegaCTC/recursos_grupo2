@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'sans-serif';
+    src: url(../fonts/Hugolers\ Stylish\ Modern.ttf);
+}
+
+body {
+    font-family: 'Hugolers Free Personal', 'sans-serif';
+}
