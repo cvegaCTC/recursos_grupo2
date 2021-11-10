@@ -14,3 +14,10 @@ Comandos de **git**:
  - *git init* crea o inicializa un nuevo repositorio en nuestra ubicación actual. En concreto crea una carpeta llamada `.git`, dentro de la cual se almacenarán todos nuestros commits.
  - *git add* agrega ficheros al área de preparación (más conocida como "cajita"). 1) Si va acompañado de un punto (`git add .`), se agregarán todos los ficheros nuevos, modificados y/o eliminados a la cajita. 2) También podemos agregar ficheros uno a uno (`git add archivo.txt archivo2.txt`).
  - *git commit -m* Guarda los ficheros agregados al área de preparación, es decir, guarda la cajita en la bodega (nuestro repositorio). Al agregar el `-m`, indicamos que le asignaremos un mensaje (`git commit -m "mensaje descriptivo"`).
+
+Comandos para trabajar con **repositorios remotos**:
+
+ - *git remote add* permite agregar un nuevo repositorio remoto a nuestro repositorio local. Debe agregarse además el nombre que con el que se hará referencia al repositorio remoto y su dirección HTTPS, incluyendo además el usuario de github y el personal token correspondiente. Ejemplo: `git remote add origin https://<username>:<personal token>@github.com/<username>/<repositorio>.git`.
+ - *git remote* permite revisar los repositorios remotos agregados a nuestro repositorio local. También se puede agregar la opción -v (`git remote -v`) para obtener más información.
+ - *git push* sincroniza nuestro repositorio local con el remoto. En caso de tener más de un repositorio remoto conectado al local, es importante que indiques el repositorio que se sincronizará, adicionalmente te recomendamos que especifiques la rama a actualizar (`git push origin master`). Si es la primera vez que realizas un push a un repositorio remoto, es importante que escribas algo como esto: `git push -u origin master`.
+ - *git clone* permite clonar o realizar una copia de un repositorio remoto en tu local. Si dicho repositorio remoto es público (sea tuyo o no), no necesitas agregar nada más que su dirección HTTPS.
