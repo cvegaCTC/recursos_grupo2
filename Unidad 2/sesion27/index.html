@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión 27</title>
+    <!--Hojas de estilos CSS. Siempre irán en el head.-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Sesión 27: Funciones</h1>
+    <div class="container">
+        <h3>Cálculo de perímetro y área de circunferencias</h3>
+        <div class="indent">
+            <p class="error-message" id="error-circunferencia"></p>
+            <br>
+            <form class="form">
+                <p>Ingrese el radio de la circunferencia:</p>
+                <label for="radio">radio = </label>
+                <input class="input" type="number" step="any" id="radio"> cm
+                <button type="button" class="button" id="boton-enviar">Calcular</button> 
+            </form>
+            <div class="container" id="resultados">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Radio (cm)</th>
+                            <th>Perímetro (cm)</th>
+                            <th>Área (cm<sup>2</sup>)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="resultado-radio"></td>
+                            <td id="resultado-perimetro"></td>
+                            <td id="resultado-area"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>Cálculo de Índice de Masa Corporal (IMC)</h3>
+        <div class="indent">
+            <p class="error-message" id="error-imc"></p>
+            <br>
+            <form class="form">
+                <p>Ingrese su peso y estatura:</p>
+                <div class="input-group">
+                    <label for="peso">Peso = </label>
+                    <input class="input" type="number" step="any" id="peso"> Kg
+                </div>
+                <div class="input-group">
+                    <label for="estatura">Estatura = </label>
+                    <input class="input" type="number" step="any" id="estatura"> m
+                </div>
+                <div class="right">
+                    <button class="button" type="button" id="boton-imc">Calcular</button> 
+                </div>
+            </form>
+            <div class="container" id="resultados">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Peso (Kg)</th>
+                            <th>Estatura (m)</th>
+                            <th>IMC (Kg/m<sup>2</sup>)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="resultado-peso"></td>
+                            <td id="resultado-estatura"></td>
+                            <td id="resultado-imc"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--Scripts JS. Generalmente van al final del body.-->
+    <!--Se escriben al final ya que así nos aseguramos que se ejecuten una vez que se haya 
+        terminado de cargar (renderizar) el contenido HTML y los estilos de nuestra página web.-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

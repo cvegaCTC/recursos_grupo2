@@ -1,0 +1,80 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.indent {
+    margin-left: 2rem;
+}
+
+.form {
+    padding: 1rem 1rem;
+    background-color: rgb(226, 212, 240);
+    display: inline-block;
+}
+
+.form p {
+    margin-top: 0;
+}
+
+.input {
+    width: 80px;
+    border: none;
+    text-align: center;
+}
+
+.input-group {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.button {
+    border: none;
+    background-color: rgb(148, 104, 189);
+    color: white;
+    padding: 0.2rem 0.5rem;
+}
+
+#boton-enviar {
+    margin-left: 1.2rem;
+}
+
+#boton-imc {
+    margin-top: 10px;
+}
+
+.right {
+    text-align: right;
+}
+
+.table {
+    font-size: 0.9rem;
+}
+
+.table, .table th, .table td {
+    border: solid 2px rgb(176, 112, 236);
+    border-collapse: collapse;
+}
+
+.table tr {
+    height: 1.8rem;
+}
+
+.table th, .table td {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.error-message {
+    background-color: rgba(220, 20, 60, 0.445);
+    color: crimson;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: small;
+}
