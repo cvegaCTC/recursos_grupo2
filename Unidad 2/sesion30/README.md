@@ -1,1 +1,1 @@
-Código adaptado de <link href="https://codepen.io/quinlo/pen/YONMEa">Adam Quinlan</link>
+Código adaptado de [Adam Quinlan](https://codepen.io/quinlo/pen/YONMEa)
