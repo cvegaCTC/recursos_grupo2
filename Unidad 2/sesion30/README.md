@@ -1,1 +1,2 @@
-Código adaptado de [Adam Quinlan](https://codepen.io/quinlo/pen/YONMEa)
+Código adaptado de [Adam Quinlan](https://codepen.io/quinlo/pen/YONMEa).
+Puedes utilizar [este generador de tarjetas](https://herramientas-online.com/generador-tarjeta-credito-cvv.php) para revisar el correcto funcionamiento del validador.
