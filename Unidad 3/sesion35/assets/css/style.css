@@ -1,0 +1,71 @@
+/* DIV PADRE */
+.flex-container {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+/* DIVS HIJOS */
+.flex-container div {
+    background-color: blue;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+}
+
+/* PROPIEDAD ORDER */
+#order-1 {
+    order: 4;
+}
+
+#order-2 {
+    order: 2;
+}
+
+#order-3 {
+    order: 1;
+}
+
+#order-4 {
+    order: 3;
+}
+
+/* PROPIEDAD FLEX-DIRECTION */
+.flex-direction {
+    /* 
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;  valor por defecto
+    */
+    flex-direction: row-reverse;
+}
+
+/* PROPIEDAD FLEX-WRAP */
+.flex-wrap {
+    /*
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    */
+    flex-wrap: wrap-reverse;
+    justify-content: start;
+}
+
+/* PROPIEDAD ALIGN-ITEMS */
+.align-items {
+    height: 200px;
+    /*
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: center;
+    align-items: baseline;
+    */
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.align-items_flex-direction {
+    height: 400px;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: end;
+}
