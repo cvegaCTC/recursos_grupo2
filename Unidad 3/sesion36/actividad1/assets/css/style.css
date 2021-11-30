@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(233, 153, 88);
+    max-width: 980px;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.field, .textarea {
+    margin: 0 0.5em 1em 0;
+    padding: .5em 1em;
+    border: 3px solid grey;
+}
+
+.field {
+    /* flex-grow flex-shrink flex-basis */
+    /* factor de crecimiento -> mayor valor indica que ocupará mayor proporción del contenedor flexible */
+    /* factor de contracción -> mayor valor indica que ocupará menor proporción del contenedor flexible */
+    /* flex-basis -> indica tamaño base del elemento, si flex-shrink es 0, no ocupará menor espacio que su tamaño base */
+    flex: 1 0 40%;
+    width: 45%;
+    float: left;
+}
+
+.textarea {
+    flex: 1 0 90%;
+}
+
+.button {
+    padding: 5px;
+    border: none;
+    background-color: rgb(233, 117, 22);
+    color: #fff;
+}

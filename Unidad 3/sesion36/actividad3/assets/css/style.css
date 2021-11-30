@@ -1,0 +1,54 @@
+body {
+    background-color: palegoldenrod;
+    color: rgb(37, 37, 37);
+}
+
+.presentacion {
+    width: 300px;
+    margin: 30px auto;
+    background-color: rgb(245, 234, 111);
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.presentacion h3 {
+    text-transform: uppercase;
+    color: rgb(85, 84, 84);
+    text-align: center;
+}
+
+.nav {
+    flex-grow: 1;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li {
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgb(205, 179, 63);
+    text-align: center;
+}
+
+.nav li:hover {
+    background-color: rgb(202, 188, 125);;
+}
+
+.nav li i {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+}
+
+.pic {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pic img {
+    width: 100px;
+    border-radius: 100%;
+    border: 10px solid rgb(205, 179, 63);
+    background-color: rgb(233, 224, 176);
+}
