@@ -1,0 +1,32 @@
+* {
+    background-color: aquamarine;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    align-items: stretch;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 250px;
+    margin: 5px;
+    background-color: rgb(223, 248, 240);
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    background-color: rgb(223, 248, 240);
+    text-align: center;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(223, 248, 240);
+}
