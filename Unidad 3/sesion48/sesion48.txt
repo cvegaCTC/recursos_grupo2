@@ -1,0 +1,47 @@
+PASO 1 - Crear nuevo repositorio en github
+
+PASO 2 - Clonar el repositorio en nuestra computadora. Recordar dirigirse a la ubicación que deseen antes de realizar el clone. 
+git clone https://github.com/cvegaCTC/branches-exercise.git
+
+PASO 3 - Ingresar a la carpeta principal de este repositorio.
+cd branches-exercise
+
+Puedes realizar un "ls -a" para corroborar que esta carpeta corresponda a un repositorio (deberías ver una carpeta .git).
+
+PASO 4 - Realizar primer commit, para esto puedes copiar el contenido de otro proyecto en el repositorio o crear un archivo.
+git add .
+git commit -m "primer commit"
+git push
+**** En caso de que se deniegue el permiso para hacer push, es necesario modificar la url del repositorio remoto asociado****
+git remote set-url origin https://<username>:<personal token>@github.com/cvegaCTC/branches-exercise.git
+git push
+
+PASO 5 - Crear nueva rama.
+git branch develop1
+
+Revisar ramas disponibles en repo local. La rama actual aparecerá con un asterisco al inicio.
+git branch
+
+PASO 6 - Cambiar rama actual.
+git checkout develop1
+
+PASO EXTRA - También podemos crear y cambiar de rama en un solo paso.
+git checkout -b develop2
+
+PASO 7 - Hacemos un cambio en la rama develop2 y luego realizamos un commit con dichos cambios.
+git add .
+git commit -m "commit develop2"
+**** Es necesario indicar que este commit se subirá a la rama develop2 del repositorio remoto****
+git push --set-upstream origin develop2
+
+PASO 8 - Crear nueva rama desde develop2.
+git checkout -b english develop2
+
+PASO 9 - Hacer cambio en english, realizar commit y push.
+git add .
+git commit -m "commit english"
+git push --set-upstream origin english
+
+PASO 10 - Fusionar ramas main e english (se integrarán los cambios realizados en english a la rama main). Primero debemos dirigirnos a la rama main.
+git checkout main
+git merge english
