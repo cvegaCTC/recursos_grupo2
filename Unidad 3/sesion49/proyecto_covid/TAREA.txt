@@ -1,0 +1,4 @@
+Fecha límite: 22 de diciembre de 2021
+
+Agregar un documento peru.html (o el país que gusten), en el cual se muestre el gráfico correspondiente a los nuevos casos y fallecimientos durante los últimos 30 días de dicho país.
+Además, debajo del gráfico, se debe mostrar los mismos datos (casos y fallecimientos) en una tabla, ordenados desde el último reporte (más actual) al realizado hace 30 días (más antiguo).
