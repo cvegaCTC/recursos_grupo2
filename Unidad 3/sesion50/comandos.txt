@@ -1,0 +1,19 @@
+----- GIT RESET -----
+mkdir git_reset_test
+cd git_reset_test
+git init
+touch reset_lifecycle_file
+git add .
+git commit -m "initial commit"
+git tag -a v1.0.0 -m "v1.0.0"
+nano reset_lifecycle_file
+	hello git reset
+git status
+git add .
+git commit -m "update content of reset_lifecycle_file"
+
+nano new_file
+	new file content
+git add new_file
+nano reset_lifecycle_life
+	changed content
