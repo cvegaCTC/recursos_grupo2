@@ -1,0 +1,18 @@
+.container div {
+    background-color: aquamarine;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Definimos la cuadrícula */
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;  /* 2/4 1/4 1/4 */
+    grid-auto-rows: 100px;
+}
+
+.grid div {
+    margin: 5px 20px;
+    text-align: center;
+}

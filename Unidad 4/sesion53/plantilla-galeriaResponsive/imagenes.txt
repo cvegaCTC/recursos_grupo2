@@ -1,0 +1,16 @@
+Annie
+https://lolstatic-a.akamaihd.net/frontpage/apps/prod/artbook/es_AR/f31d8b829b603b4b65fdff2475bd0803ced0179d/assets/content/champion/01_annie/annie_01.jpg
+Ahri
+https://lolstatic-a.akamaihd.net/frontpage/apps/prod/artbook/es_AR/f31d8b829b603b4b65fdff2475bd0803ced0179d/assets/content/champion/02_ahri/ahri_01.jpg
+Gnar
+https://lolstatic-a.akamaihd.net/frontpage/apps/prod/artbook/es_AR/f31d8b829b603b4b65fdff2475bd0803ced0179d/assets/content/champion/06_gnar/gnar_01.jpg
+Jinx
+https://lolstatic-a.akamaihd.net/frontpage/apps/prod/artbook/es_AR/f31d8b829b603b4b65fdff2475bd0803ced0179d/assets/content/champion/10_jinx/jinx_01.jpg
+Braun
+https://lolstatic-a.akamaihd.net/frontpage/apps/prod/artbook/es_AR/f31d8b829b603b4b65fdff2475bd0803ced0179d/assets/content/champion/14_braum/braum_02.jpg
+Sona
+https://lolstatic-a.akamaihd.net/frontpage/apps/prod/artbook/es_AR/f31d8b829b603b4b65fdff2475bd0803ced0179d/assets/content/champion/15_sona/sona_01.jpg
+
+<= 600px -> 1 imagen por fila
+>= 601px y <= 900px -> 2 por fila
+>= 901px -> 3 por fila
