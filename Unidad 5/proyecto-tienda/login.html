@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="assets/css/style-login.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <!-- sign in page -->
+        <div class="form-container sign-in-container">
+          <form id="login">
+            <h1 class="form__title">Inicio de Sesión</h1>
+            <div class="form__input-group">
+              <label for="username_login">Username: </label>
+              <input type="text" class="form__input" name="username" id="username_login" maxlength="20" required> 
+            </div>
+            <div class="form__input-group">
+              <label for="pass_login">Contraseña: </label>
+              <input type="password" class="form__input" name="pass" id="pass_login" maxlength="20" required> 
+            </div>
+            <div class="form__input-group">
+              <button type="submit" class="form__button" id="btn-login">Enviar</button>
+            </div>
+         </form>
+        </div>
+        
+       <!--  create account page -->
+       <div class="form-container sign-up-container">
+         <form id="register">
+           <h1 class="form__title">Registrarse</h1>
+           <div class="form__input-group">
+             <label for="username_signup"> Username: </label>
+             <input type="text" class="form__input" name="username" id="username_signup" maxlength="20" required>
+           </div>
+           <div class="form__input-group">
+            <label for="name"> Nombre y apellidos: </label>
+            <input type="text" class="form__input" name="name" id="name" maxlength="50" required>
+          </div>
+          <div class="form__input-group">
+            <label for="email"> Correo electrónico: </label>
+            <input type="email" class="form__input" name="email" id="email" maxlength="40" required>
+          </div>
+            <div class="form__input-group">
+              <label for="pass_signup">Contraseña: </label>
+              <input type="password" class="form__input" name="pass" id="pass_signup" maxlength="20" required> 
+            </div>
+           <button class="form__button" type="submit" id="btn-signup">Enviar</button>
+         </form>
+       </div> 
+        
+       <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Bienvenido!</h1>
+                    <p>Por favor inicia sesión</p>
+                    <button class="ghost" id="signIn">Ingresar</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hola!</h1>
+                    <p>Por favor ingresa tus datos</p>
+                    <button class="ghost" id="signUp">Registrar</button>
+                </div>
+            </div>
+        </div>
+     </div>    
+     <!--Firebase-->
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+     <script src="assets/js/main.js"></script>
+     <script src="assets/js/script.js"></script>
+</body>
+</html>
